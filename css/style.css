@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #ABC270;
+}
+
+.navbar-brand img{
+    width: 32px;
+    height: 32px;
+}
+
+.navbar .bigLogo {
+    z-index: 30;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.navbar .bigLogo img {
+    opacity: 20%;
+    position: absolute;
+    right: 7%;
+}
+
+.background_header {
+    background-color: #473C33;
+}
+
+.background_header div div{
+    color: #FEC868;
+}
+
+.lineaIndex {
+    border: 1.5px solid #FDA769;
+    margin: 6px 0 6px 0;
+}
+
+.footer {
+    background-color: #FDA769;
+
+}
