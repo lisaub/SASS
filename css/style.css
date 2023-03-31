@@ -37,3 +37,49 @@
     background-color: #FDA769;
 
 }
+
+@media (min-width: 768.1px) {
+    .widthSpec {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .widthSpec {
+        width: 90%;
+    }
+
+    .navbar .bigLogo {
+        z-index: 30;
+        display: flex;
+        
+    }
+
+    .navbar .bigLogo img{
+        width: 60px;
+        height: 60px;
+        top: 71px;
+    }
+}
+
+@media (max-width: 425px) {
+    .widthSpec {
+        width: 100%;
+    }
+
+    .form-floating {
+        /* height: 2.5rem; */
+    }
+
+    .form-switch {
+    }
+
+    .form-floating input, .form-switch input {
+        height: 1.5rem;
+    }
+    
+    .navbar .bigLogo {
+        display: none;
+    }
+}
