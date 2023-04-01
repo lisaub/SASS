@@ -38,42 +38,103 @@
     </header>
 
     <main>
-        <div>
-            <p class="tarjeta__Texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam odit rerum sit a! Maiores quos adipisci corrupti, dignissimos excepturi cum officiis, sapiente repudiandae temporibus illum, officia beatae molestias non quo.</p>
+        <div class="container">
+            <div class="row py-3">
+                <div class="col text-center">
+                    <h1 class="display-6">La comida</h1>
+                </div>
+            </div>
         </div>
-        <div class="cajaVideo">
-            <iframe class="videoProductos" src="https://www.youtube.com/embed/5zd5GCr61nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <hr class="lineaIndex">
+
+
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 d-flex justify-content-center align-items-center">
+                    <p class="text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente placeat quas sint velit hic, similique odit omnis asperiores quod porro, explicabo esse? Nulla eum quaerat illum repellendus consequatur ratione voluptatibus.</p>
+                </div>
+            </div>
         </div>
-        
-        
-        <h3 class="tarjeta__Texto">Nuestra oferta</h3>
-        <ul class="grid__productos">
-            <div></div>
-            <p class="hamburguesas">Hamburguesas</p>
-            <div class="hamburguesas">
-                <img src="../assets/img/hamburger.svg" alt="hamburger">
+        <div class="container">
+            <div class="row py-3 justify-content-center">
+                <div class="ratio ratio-16x9 widthSpec">
+                    <iframe class="videoProductos" src="https://www.youtube.com/embed/5zd5GCr61nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
-            <div></div>
-            <p class="paella">Paella</p>
-            <div class="paella">
-                <img src="../assets/img/paella.svg" alt="paella">
+            <div class="row py-3">
+                <div class="col text-center">
+                    <p class="fs-4">Nuestra oferta</p>
+                </div>
             </div>
-            <div></div>
-            <p  class="pasta">Pasta</p>
-            <div  class="pasta">
-                <img src="../assets/img/pasta.svg" alt="pasta">
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-2">
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="hamburguesas p-2">Hamburguesas</div>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <div class="hamburguesas p-2">
+                        <img src="../assets/img/hamburger.svg" class="img-fluid float-start" alt="hamburger">
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="paella p-2">Paella</div>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <div class="paella p-2">
+                        <img src="../assets/img/paella.svg" class="img-fluid float-start" alt="paella">
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="pasta p-2">Pasta</div>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <div class="pasta p-2">
+                        <img src="../assets/img/pasta.svg" class="img-fluid float-start" alt="pasta">
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="pizza p-2">Pizza</div>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <div class="pizza p-2">
+                        <img src="../assets/img/pizza.svg" class="img-fluid float-start" alt="pizza">
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="sushi p-2">Sushi</div>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <div class="sushi p-2">
+                        <img src="../assets/img/sushi.svg" class="img-fluid float-start" alt="sushi">
+                    </div>
+                </div>
             </div>
-            <div></div>
-            <p class="pizza">Pizza</p>
-            <div class="pizza">
-                <img src="../assets/img/pizza.svg" alt="pizza">
+        </div>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="../assets/img/curry.jpg" class="d-block w-100" alt="...">
             </div>
-            <div></div>
-            <p class="sushi">Sushi</p>
-            <div class="sushi">
-                <img src="../assets/img/sushi.svg" alt="sushi">
+                <div class="carousel-item">
+                <img src="../assets/img/hamburger.jpg" class="d-block w-100" alt="...">
             </div>
-        </ul>
+            <div class="carousel-item">
+                <img src="../assets/img/Location/food.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
     </main>
 
