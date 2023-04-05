@@ -13,7 +13,6 @@
     align-items: baseline;
 }
 
-
 .navbar .bigLogo img {
     opacity: 20%;
     position: absolute;
@@ -38,11 +37,36 @@
 
 }
 
+.form-control { 
+    border-color: #FDA769;
+}
+
+.form-check-input:checked {
+    background-color: #FDA769;
+    border-color: #FDA769;
+}
+
+.form-check-input:hover {
+    background-color: #FDA769;
+    border-color: #FDA769;
+}
+
+
+.btn-secondary {
+    background-color: #473C33;
+    border-color: #473C33;
+    border-radius: 5%;
+}
+
+.btn-secondary:hover {
+    background-color: #473C33;
+    border-color: #473C33;
+}
+
 @media (min-width: 768.1px) {
     .widthSpec {
         width: 75%;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -66,13 +90,6 @@
 @media (max-width: 425px) {
     .widthSpec {
         width: 100%;
-    }
-
-    .form-floating {
-        /* height: 2.5rem; */
-    }
-
-    .form-switch {
     }
 
     .form-floating input, .form-switch input {
