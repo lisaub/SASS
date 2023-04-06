@@ -1,102 +1,70 @@
 .navbar {
-    background-color: #ABC270;
-}
-
-.navbar-brand img{
-    width: 32px;
-    height: 32px;
-}
-
-.navbar .bigLogo {
+  background-color: #ABC270; }
+  .navbar .bigLogo {
     z-index: 30;
     display: flex;
-    align-items: baseline;
-}
+    align-items: baseline; }
+    .navbar .bigLogo img {
+      opacity: 20%;
+      position: absolute;
+      right: 7%; }
 
-.navbar .bigLogo img {
-    opacity: 20%;
-    position: absolute;
-    right: 7%;
-}
+.navbar-brand img {
+  width: 32px;
+  height: 32px; }
 
 .background_header {
-    background-color: #473C33;
-}
-
-.background_header div div{
-    color: #FEC868;
-}
+  background-color: #473C33; }
+  .background_header div div {
+    color: #FEC868; }
 
 .lineaIndex {
-    border: 1.5px solid #FDA769;
-    margin: 6px 0 6px 0;
-}
+  border: 1.5px solid #FEC868;
+  margin: 6px 0 6px 0; }
 
 .footer {
-    background-color: #FDA769;
+  background-color: #FEC868; }
 
-}
-
-.form-control { 
-    border-color: #FDA769;
-}
+.form-control {
+  border-color: #FEC868; }
 
 .form-check-input:checked {
-    background-color: #FDA769;
-    border-color: #FDA769;
-}
+  background-color: #FEC868;
+  border-color: #FEC868; }
 
 .form-check-input:hover {
-    background-color: #FDA769;
-    border-color: #FDA769;
-}
-
+  background-color: #FEC868;
+  border-color: #FEC868; }
 
 .btn-secondary {
+  background-color: #473C33;
+  border-color: #473C33;
+  border-radius: 5%; }
+  .btn-secondary:hover {
     background-color: #473C33;
-    border-color: #473C33;
-    border-radius: 5%;
-}
-
-.btn-secondary:hover {
-    background-color: #473C33;
-    border-color: #473C33;
-}
+    border-color: #473C33; }
 
 @media (min-width: 768.1px) {
-    .widthSpec {
-        width: 75%;
-    }
-}
+  .widthSpec {
+    width: 75%; } }
 
 @media (max-width: 768px) {
-    .widthSpec {
-        width: 90%;
-    }
-
-    .navbar .bigLogo {
-        z-index: 30;
-        display: flex;
-        
-    }
-
-    .navbar .bigLogo img{
-        width: 60px;
-        height: 60px;
-        top: 71px;
-    }
-}
+  .widthSpec {
+    width: 90%; }
+  .navbar .bigLogo {
+    z-index: 30;
+    display: flex; }
+    .navbar .bigLogo img {
+      width: 60px;
+      height: 60px;
+      top: 71px; } }
 
 @media (max-width: 425px) {
-    .widthSpec {
-        width: 100%;
-    }
-
-    .form-floating input, .form-switch input {
-        height: 1.5rem;
-    }
-    
-    .navbar .bigLogo {
-        display: none;
-    }
-}
+  .widthSpec {
+    width: 100%; }
+  .form-floating input {
+    height: 1.5rem; }
+  .form-switch input {
+    height: 1.5rem; }
+  .navbar .bigLogo {
+    display: none; } }

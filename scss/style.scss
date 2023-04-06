@@ -1,0 +1,108 @@
+@import 'variables';
+@import 'mixins';
+
+.navbar {
+	background-color: map-get($colors,secondary);
+	.bigLogo {
+		z-index: $zIndex;
+		display: flex;
+		align-items: baseline;
+		img {
+			opacity: $logoOpacity;
+			position: absolute;
+			right: 7%;
+		}
+	}
+}
+
+.navbar-brand {
+	img {
+		width: $logoSize;
+		height: $logoSize;
+	}
+}
+
+.background_header {
+	background-color: map-get($colors,primary);
+	div {
+		div {
+			color: map-get($colors,quartenary);
+		}
+	}
+}
+
+.lineaIndex {
+	border: 1.5px solid map-get($colors,quartenary);
+	margin: $lineIndex;
+}
+.footer {
+	background-color: map-get($colors,quartenary);
+}
+
+.form-control {
+	border-color: map-get($colors,quartenary);
+}
+.form-check-input {
+	&:checked {
+		background-color: map-get($colors,quartenary);
+		border-color: map-get($colors,quartenary);
+	}
+	&:hover {
+		background-color: map-get($colors,quartenary);
+		border-color: map-get($colors,quartenary);
+	}
+}
+
+.btn-secondary {
+	background-color: map-get($colors,primary);
+	border-color: map-get($colors,primary);
+	border-radius: $borderRadius;
+	&:hover {
+		background-color: map-get($colors,primary);
+		border-color: map-get($colors,primary);
+	}
+}
+
+@media (min-width: $largeScreen) {
+	.widthSpec {
+		width: 75%;
+	}
+}
+
+@media (max-width: $mediumScreen) {
+	.widthSpec {
+		width: 90%;
+	}
+	.navbar {
+		.bigLogo {
+			z-index: $zIndex;
+			display: flex;
+			img {
+				width: $logoSizeMedio;
+				height: $logoSizeMedio;
+				top: 71px;
+			}
+		}
+	}
+}
+
+@media (max-width: $smallScreen) {
+	.widthSpec {
+		width: 100%;
+	}
+	.form-floating {
+		input {
+			height: $height;
+		}
+	}
+	.form-switch {
+		input {
+			height: $height;
+		}
+	}
+	.navbar {
+		.bigLogo {
+			display: none;
+		}
+	}
+}
