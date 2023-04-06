@@ -1,7 +1,19 @@
 @import 'variables';
 
-@mixin desktop {
-    @media(min-width:#{$desktop}) {
+@mixin largeScreen {
+    @media(min-width:#{$largeScreen}) {
+        @content;
+    }
+}
+
+@mixin mediumScreen {
+    @media(min-width:#{$mediumScreen}) {
+        @content;
+    }
+}
+
+@mixin smallScreen {
+    @media(min-width:#{$smallScreen}) {
         @content;
     }
 }

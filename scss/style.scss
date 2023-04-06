@@ -63,16 +63,22 @@
 	}
 }
 
-@media (min-width: $largeScreen) {
-	.widthSpec {
-		width: 75%;
-	}
+
+.widthSpec {
+	@include largeScreen {
+        width: 75%;
+    }
+
+	@include mediumScreen {
+        width: 90%;
+    }
+
+	@include smallScreen {
+        width: 100%;
+    }
 }
 
 @media (max-width: $mediumScreen) {
-	.widthSpec {
-		width: 90%;
-	}
 	.navbar {
 		.bigLogo {
 			z-index: $zIndex;
@@ -87,9 +93,6 @@
 }
 
 @media (max-width: $smallScreen) {
-	.widthSpec {
-		width: 100%;
-	}
 	.form-floating {
 		input {
 			height: $height;
