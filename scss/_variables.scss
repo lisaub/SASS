@@ -8,6 +8,10 @@ secondary: #ABC270,
 tertinary: #FDA769,
 quartenary: #FEC868,
 primary-light:lighten(#4a4e69,40%),primary-dark:darken(#4a4e69,10%),text-dark:darken(#4a4e69,40%),text-light:lighten(#4a4e69,60%));
+// errores
+$error-color: #ff0000;
+$error-background-color: #f2f2f2;
+$error-border-color: #e6e6e6;
 
 //breakpoints
 $largeScreen:768.1px;

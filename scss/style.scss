@@ -78,6 +78,42 @@
     }
 }
 
+
+
+.error-container {
+	background-color: $error-background-color;
+	border: 1px solid $error-border-color;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin: 50px auto;
+	max-width: 600px;
+
+	.error-title {
+		font-size: 3em;
+		color: $error-color;
+		margin-bottom: 20px;
+	}
+
+	.error-message {
+		font-size: 1.5em;
+		margin-bottom: 30px;
+	}
+
+	.error-link {
+		font-size: 1.2em;
+		color: $error-color;
+		text-decoration: none;
+		border-bottom: 1px dotted $error-color;
+
+		&:hover {
+			text-decoration: none;
+			border-bottom-style: solid;
+		}
+	}
+}
+
+
 @media (max-width: $mediumScreen) {
 	.navbar {
 		.bigLogo {

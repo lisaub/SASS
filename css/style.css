@@ -56,6 +56,30 @@
   .widthSpec {
     width: 100%; } }
 
+.error-container {
+  background-color: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px; }
+  .error-container .error-title {
+    font-size: 3em;
+    color: #ff0000;
+    margin-bottom: 20px; }
+  .error-container .error-message {
+    font-size: 1.5em;
+    margin-bottom: 30px; }
+  .error-container .error-link {
+    font-size: 1.2em;
+    color: #ff0000;
+    text-decoration: none;
+    border-bottom: 1px dotted #ff0000; }
+    .error-container .error-link:hover {
+      text-decoration: none;
+      border-bottom-style: solid; }
+
 @media (max-width: 768px) {
   .navbar .bigLogo {
     z-index: 30;
